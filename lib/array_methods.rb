@@ -6,10 +6,11 @@
 #using_include.include?("Maru")
     #=> true
 
-
-    using_include("array", "element")
-     array.include?(element)
-
+     famous_cats = ["lil' bub", "grumpy cat", "Maru"]
+     famous_cats.include?("Garfield")
+       => false
+     famous_cats.include?("Maru")
+       => true
 
 #end
 
